@@ -1,0 +1,8 @@
+server:
+  port: 8203
+  ipAddress: 127.0.0.1
+  childpath: /dataServer-thir
+  parentpath: /dataServer
+az:
+  rack: rack3/
+  zone: zone3

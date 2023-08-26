@@ -1,0 +1,8 @@
+server:
+  port: 8202
+  ipAddress: 127.0.0.1
+  childpath: /dataServer-sec
+  parentpath: /dataServer
+az:
+  rack: rack2/
+  zone: zone2

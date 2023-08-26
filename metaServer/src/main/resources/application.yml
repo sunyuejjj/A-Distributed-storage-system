@@ -1,0 +1,15 @@
+server:
+  port: 8000
+  ipAddress: 127.0.0.1
+  childpath: /metaServer-master
+  parentpath: /metaServer
+  dataserverpath: /dataServer
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 1000
+zk:
+  ipAddress: localhost:2181

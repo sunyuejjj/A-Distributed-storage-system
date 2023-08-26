@@ -1,0 +1,8 @@
+server:
+  port: 8201
+  ipAddress: 127.0.0.1
+  childpath: /dataServer-fir
+  parentpath: /dataServer
+az:
+  rack: rack1/
+  zone: zone1
