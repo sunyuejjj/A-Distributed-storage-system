@@ -1,4 +1,5 @@
-项目描述：仿照HDFS实现了一个简易的分布式文件存储系统，分为Client，DataNode，NameNode三部分，使用
+"""仿照HDFS实现了一个简易的分布式文件存储系统"""
+项目分为Client，DataNode，NameNode三部分，使用
 Zookeeper作为服务注册与发现中心，并提供自动故障转移工作。
 项目要点：
 1. Client实现：实现了HDFS中的FileSystem对象，对外提供open、mkdir、delete等文件操作，使用Http协议实现上述
